@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: url('./images/bg.jpg');
+  background: url("./images/bg.jpg");
   background-size: cover;
 }
 
@@ -25,9 +25,6 @@ body {
   font-family: "BrandonGrotesque-Lit";
   src: url("./font/BrandonGrotesque/Brandon_reg.otf");
 }
-
-
-
 
 #sidebar {
   width: 18vw;
@@ -203,4 +200,22 @@ body {
 
 input {
   height: 3.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+
+  #mailrow {
+    font-size: 0.75em;
+  }
+
+  #mailbody {
+    font-size: 0.7em;
+  }
+
+  #mainbody_bg {
+    width: 95vw;
+  }
 }
